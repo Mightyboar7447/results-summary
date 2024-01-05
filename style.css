@@ -83,11 +83,12 @@ body {
 }
 
 .tytul {
+    opacity: 0.8;
     font-family: 'Hanken Grotesk', sans-serif;
-    color: black;
-    margin-top: -30px;
+    color: white;
+    margin-top: -20px;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .biale {
@@ -100,7 +101,7 @@ body {
 }
 
 #okienko {
-   
+    font-weight: 700;
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 13px;
     display: flex;
@@ -109,7 +110,6 @@ body {
     width: 65%;
     padding: 15px;
     height: 10%;
-    justify-content: space-between;
 }
 
 .zolte {
@@ -129,6 +129,8 @@ body {
 }
 
 .przycisk {
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
     background-color: hsl(224, 30%, 27%);
     border-radius: 50px;
     padding: 10px;
@@ -137,6 +139,16 @@ body {
     text-align: center;
 }
 
+.przycisk:hover {
+    opacity: 0.4;
+    transition: 0.6;;
+    cursor: pointer;
+}
+
+.statystyki {
+
+    margin-left: auto;
+}
 
 .summary {
     font-family: 'Hanken Grotesk', sans-serif;
@@ -152,3 +164,8 @@ body {
     top: -200px;
 }
 
+svg { margin-right: 0.5rem; }
+
+.wyszarzone {
+    opacity: 0.5;
+}
